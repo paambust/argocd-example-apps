@@ -1,0 +1,8 @@
+# In your forked repo, create a ConfigMap with your message
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: guestbook-ui-html
+data:
+  index.html: |
+    <html><body><h1>Hello This page proves that argocd has deployed required version-1</h1></body></html>
