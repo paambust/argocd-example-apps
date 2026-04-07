@@ -18,3 +18,11 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 80
+          volumeMounts:
+          - name: html-volume
+            mountPath: /var/www/html/index.html
+            subPath: index.html
+      volumes:
+      - name: html-volume
+        configMap:
+          name: guestbook-ui-html
