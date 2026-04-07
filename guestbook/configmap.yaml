@@ -5,4 +5,4 @@ metadata:
   name: guestbook-ui-html
 data:
   index.html: |
-    <html><body><h1>Hello This page proves that argocd has deployed required version-1</h1></body></html>
+    <html><body><h1>Hello This page proves that argocd has deployed required version-2</h1></body></html>
